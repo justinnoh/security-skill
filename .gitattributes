@@ -1,0 +1,9 @@
+# Shell scripts must use LF so they run on Linux/macOS regardless of the OS
+# they were committed from.
+*.sh text eol=lf
+
+# Windows PowerShell scripts use CRLF.
+*.ps1 text eol=crlf
+
+# Markdown: normalize to LF in the repo.
+*.md text eol=lf
