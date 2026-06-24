@@ -1,8 +1,10 @@
 # Security Skill for Claude Code
 
-엔터프라이즈 수준의 보안 코드 감사(Secure Code Audit)를 수행하는 Claude Code / Codex 스킬입니다.
-아키텍처, 입력 검증, 인증/인가(IDOR/BOLA), 파일 업로드, API 보안, AI 에이전트 보안과
-Google Drive · Slack · Obsidian · Railway 연동 보안을 체크리스트 기반으로 점검합니다.
+「소프트웨어 보안약점 진단가이드(2021, KISA/행정안전부)」 기반의 보안 코드 진단
+Claude Code / Codex 스킬입니다. **설계단계 보안설계 기준 20개 + 구현단계 보안약점 49개**
+(총 69개 항목)를 전수 점검하고, 모든 항목을 `PASS / VULNERABLE / NEEDS_REVIEW / N/A`로 판정합니다.
+
+자세한 진단 항목 구성과 사용법은 [`security-skill/README.md`](security-skill/README.md)를 참고하세요.
 
 ## 설치
 
