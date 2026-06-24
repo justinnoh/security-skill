@@ -18,7 +18,7 @@
 | API 오용 | 2 (A-01~A-02) | `08_api_misuse.md` |
 
 전체 항목 인덱스는 `kisa_00_master_checklist.md`(단일 출처),
-결과표 템플릿은 `12_report_template.md`를 참고하세요.
+결과표 템플릿은 `09_report_template.md`를 참고하세요.
 각 항목은 **목적 / 공격 시나리오 / 탐지 위치 / 체크 방법 / PASS·VULNERABLE·NEEDS_REVIEW 기준 / 수정 가이드 / 예시 코드** 필드로 구성됩니다.
 
 ## 사용법

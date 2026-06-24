@@ -27,21 +27,21 @@
 | `code` | 06_code_error.md | 코드오류 5 (C-01~C-05) |
 | `encap` | 07_encapsulation.md | 캡슐화 4 (P-01~P-04) |
 | `apimisuse` | 08_api_misuse.md | API오용 2 (A-01~A-02) |
-| `report` | 12_report_template.md | 보고서 템플릿 |
+| `report` | 09_report_template.md | 보고서 템플릿 |
 
 예시: `/security-skill input` → 입력데이터 검증 17개 항목만 진단
 
 ## Workflow
 
 **부분 진단**: 해당 모듈 파일을 로드해 그 카테고리 항목만 진단하고,
-`12_report_template.md`의 해당 결과표 부분을 채워 출력한다.
+`09_report_template.md`의 해당 결과표 부분을 채워 출력한다.
 
 **전체 진단**:
 1. `kisa_00_master_checklist.md`로 전체 69개 항목을 고정한다.
 2. 코드베이스 아키텍처/기술스택을 파악하고 공격 표면을 열거한다.
 3. 설계 20개(`01`)를 산출물/코드 구조 기준으로 판정한다.
 4. 구현 49개(`02`~`08`)를 각 카테고리 파일의 탐지 위치·체크 방법으로 판정한다.
-5. **모든 69개 항목**을 `12_report_template.md`의 결과표에 빠짐없이 채운다.
+5. **모든 69개 항목**을 `09_report_template.md`의 결과표에 빠짐없이 채운다.
    - 어떤 항목도 생략 금지. 해당 없으면 `N/A` + 사유 명시.
 6. VULNERABLE/NEEDS_REVIEW 항목은 위치·공격 시나리오·수정안(예시 코드)을 상세화한다.
 7. 수정 우선순위(P0/P1/P2)를 제시한다.
